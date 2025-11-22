@@ -74,6 +74,43 @@ Isso deixa o código organizado, fácil de ler e fácil de expandir.
 2. Abra o arquivo quiz.py.
 
 
-3. Rode com o
+3. Rode com o botão de play.
+
+
+4. Responda as perguntas digitando:
+
+
+
+A, B, C ou D
+
+
+---
+
+🎮 Exemplo de Execução
+
+=== QUIZ DE CONHECIMENTOS ===
+
+Pergunta 1: Qual é a capital da França?
+A) Londres
+B) Paris
+C) Roma
+D) Berlim
+
+Sua resposta: B
+✔️ Correto!
+
+
+---
+
+🧪 Resultado Final
+
+O programa exibe sua nota e uma mensagem personalizada:
+
+5 acertos → 💥 Perfeito!
+
+3 ou 4 acertos → 🔥 Bom resultado!
+
+0 a 2 acertos → 📘 Estude um pouco mais e tente novamente!
+
 
 
