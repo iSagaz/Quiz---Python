@@ -1,58 +1,79 @@
-# Quiz de Conhecimentos - Versão Inicial
+🧠 Quiz de Conhecimentos – Python
 
-perguntas = [
-    {
-        "pergunta": "Qual é a capital da França?",
-        "opcoes": ["A) Londres", "B) Paris", "C) Roma", "D) Berlim"],
-        "resposta": "B"
-    },
-    {
-        "pergunta": "Quanto é 7 * 8?",
-        "opcoes": ["A) 54", "B) 48", "C) 56", "D) 64"],
-        "resposta": "C"
-    },
-    {
-        "pergunta": "Qual dessas linguagens é usada em IA?",
-        "opcoes": ["A) Python", "B) HTML", "C) CSS", "D) Excel"],
-        "resposta": "A"
-    },
-    {
-        "pergunta": "Quem criou a teoria da relatividade?",
-        "opcoes": ["A) Newton", "B) Tesla", "C) Einstein", "D) Darwin"],
-        "resposta": "C"
-    },
-    {
-        "pergunta": "Qual planeta é conhecido como Planeta Vermelho?",
-        "opcoes": ["A) Júpiter", "B) Marte", "C) Vênus", "D) Saturno"],
-        "resposta": "B"
-    }
-]
+Um pequeno projeto feito em Python para praticar lógica de programação, estruturas de dados e interação com o usuário.
+Este é o meu terceiro projeto de programação e o primeiro feito totalmente sozinho! 🚀
 
-def jogar_quiz():
-    print("=== QUIZ DE CONHECIMENTOS ===\n")
-    pontos = 0
 
-    for i, p in enumerate(perguntas, start=1):
-        print(f"Pergunta {i}: {p['pergunta']}")
-        for opcao in p["opcoes"]:
-            print(opcao)
+---
 
-        resposta_user = input("\nSua resposta (A/B/C/D): ").upper().strip()
+📌 Sobre o Projeto
 
-        if resposta_user == p["resposta"]:
-            print("✔️ Correto!\n")
-            pontos += 1
-        else:
-            print(f"❌ Errado! A resposta correta era {p['resposta']}\n")
+Este quiz apresenta perguntas de múltipla escolha sobre vários temas.
+O usuário deve digitar A, B, C ou D, e ao final recebe a pontuação total e uma mensagem de desempenho.
 
-    print("=== RESULTADO FINAL ===")
-    print(f"Você acertou {pontos} de {len(perguntas)} perguntas.")
+O objetivo do projeto é:
 
-    if pontos == 5:
-        print("💥 Perfeito! Você é MUITO bom!")
-    elif pontos >= 3:
-        print("🔥 Bom resultado, continue assim!")
-    else:
-        print("📘 Estude um pouco mais e tente novamente!")
+Praticar Python
 
-jogar_quiz()
+Aprender sobre listas e dicionários
+
+Treinar lógica e estruturas de repetição
+
+Criar um programa simples, mas funcional
+
+
+
+---
+
+🛠️ Tecnologias Utilizadas
+
+Python 3
+
+Pydroid3 (Android) – para escrever e rodar o código no celular
+
+GitHub – para versionamento e armazenamento do projeto
+
+
+
+---
+
+📂 Estrutura do Código
+
+O quiz utiliza:
+
+Uma lista com todas as perguntas
+
+Cada pergunta é um dicionário contendo:
+
+enunciado
+
+opções
+
+resposta correta
+
+
+
+Exemplo de estrutura:
+
+{
+    "pergunta": "Qual é a capital da França?",
+    "opcoes": ["A) Londres", "B) Paris", "C) Roma", "D) Berlim"],
+    "resposta": "B"
+}
+
+Isso deixa o código organizado, fácil de ler e fácil de expandir.
+
+
+---
+
+▶️ Como Executar
+
+1. Instale o Pydroid3 no Android OU use Python no PC.
+
+
+2. Abra o arquivo quiz.py.
+
+
+3. Rode com o
+
+
